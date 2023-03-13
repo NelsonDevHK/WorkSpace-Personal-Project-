@@ -1,7 +1,8 @@
 .App{
   background-color:#123551;
+  opacity: 94%;
   text-align: center;
-  margin: 100px;
+  margin: 20px;
   margin-top: 20px;
   border-radius: 30px;
 }
@@ -26,8 +27,9 @@ html{
   margin: 10px;
   font-size: 30px;
   font-family: "Alice", sans-serif;
-  color: pink;
-  text-shadow: 1.5px 1.5px #068087;
+  color: #bcfbf3;
+  opacity: 95%;
+  text-shadow: 1px 1px pink;
 }
 .StartBar button{
   margin: 20px;
@@ -44,6 +46,7 @@ html{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding:20px;
 }
 .SoundBar .stroke{
   display: block;
@@ -158,4 +161,29 @@ html{
   font-family: "Alice", sans-serif;
   color: pink;
   opacity: 95%;
+}
+
+.Item {
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
+.Todo{
+  display: flex;
+  justify-content: center;
+  gap : 20px;
+}
+.add{
+  margin: 10px;
+  color: #C6FCE5;
+  background-color: transparent;
+  font-family: 'Alice';
+  border: solid;
+  box-shadow: none;
+  color: #C6FCE5;
+  -webkit-transition:color 0.3s linear;
+}
+.add:hover{
+  color: #f9ced5;
+  cursor: pointer;
 }

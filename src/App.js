@@ -12,14 +12,18 @@ function App() {
     working = !working;
     var sound = <SoundWave />;
   }
+  else{
+    var youtubeBar = <Form setYoutubeLink={setYoutubeLink}/>;
+    var enter = <Youtube YoutubeLink={youtubeLink}/>;
+  }
   
   return (
     <div className="App">
-      <h1 className='Logo'>Nelson in WonderLand</h1>
+      <h1 className='Logo'>NELSON IN WONDERLAND</h1>
       <Background GetWorking={working} />
       {sound}
-      <Form setYoutubeLink={setYoutubeLink}/>
-      <Youtube YoutubeLink={youtubeLink}/>
+      {youtubeBar}
+      {enter}
     </div>
   );
 }
