@@ -124,10 +124,9 @@ html{
 .photoBackGround{
   display: grid;
   grid-template-columns: 1.5fr 1.5fr;
-  background-image: url(./Components/LucyNDavid.png);
   margin: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
   height: 400px;
   background-size: cover;
   opacity: 0.6;
@@ -136,10 +135,27 @@ html{
 .ToDoList{
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family: "Alice", sans-serif;
+  color: #bcfbf3;
+  opacity: 95%;
 }
 
 .Timmer{
   margin-top: 20px;
   margin-bottom: 20px;
   border-left: 4px solid #bcfbf3;
+}
+.work-Text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Alice", sans-serif;
+  color: #bcfbf3;
+  opacity: 95%;
+}
+.break-Text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Alice", sans-serif;
+  color: pink;
+  opacity: 95%;
 }

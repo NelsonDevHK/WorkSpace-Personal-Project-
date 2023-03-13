@@ -15,7 +15,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1 className='Logo'>Nelson's StudyRoom</h1>
+      <h1 className='Logo'>Nelson in WonderLand</h1>
       <Background GetWorking={working} />
       {sound}
       <Form setYoutubeLink={setYoutubeLink}/>
