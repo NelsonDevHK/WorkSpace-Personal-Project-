@@ -1,8 +1,6 @@
 import Video1 from "./castle.mp4";
 import Video2 from "./room.mp4";
 import Video3 from "./room2.mp4";
-import Video4 from "./sonaRoom.mp4";
-import Video5 from "./spy.mp4";
 import  Workspace  from './Workspace';
 
 function WorkingBackground(props) {
@@ -12,7 +10,7 @@ function WorkingBackground(props) {
 function DefaultBackground(props) {
   return (
     <div className="Background">
-    <video class="video" autoPlay muted loop src={Video3} type ="video/mp4"/>
+    <video class="video" autoPlay muted loop src={Video1} type ="video/mp4"/>
     </div>
   )
 }
