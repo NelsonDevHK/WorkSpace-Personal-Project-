@@ -14,7 +14,6 @@ function App() {
   }
   else{
     var youtubeBar = <Form setYoutubeLink={setYoutubeLink}/>;
-    var enter = <Youtube YoutubeLink={youtubeLink}/>;
   }
   
   return (
@@ -23,7 +22,7 @@ function App() {
       <Background GetWorking={working} />
       {sound}
       {youtubeBar}
-      {enter}
+      <Youtube YoutubeLink={youtubeLink} />
     </div>
   );
 }

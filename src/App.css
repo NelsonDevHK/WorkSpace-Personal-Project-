@@ -18,7 +18,7 @@
   border-radius: 5px;
 }
 html{
-  background:linear-gradient(#bcfbf3,#f9ced5);
+  background:linear-gradient(#abe2c7,#f9ced5);
   width: 100%;
   height: 100%;
 }
@@ -27,7 +27,7 @@ html{
   margin: 10px;
   font-size: 30px;
   font-family: "Alice", sans-serif;
-  color: #bcfbf3;
+  color: #d6fadf;
   opacity: 95%;
   text-shadow: 1px 1px pink;
 }
@@ -51,7 +51,7 @@ html{
 .SoundBar .stroke{
   display: block;
   position: relative;
-  background-color: #C6FCE5;
+  background-color: #d6fadf;
   height: 100%;
   width: 10px;
   border-radius: 50px;
@@ -112,7 +112,7 @@ html{
   font-size: 30px;
   border: solid;
   box-shadow: none;
-  color: #C6FCE5;
+  color: #d6fadf;
   -webkit-transition:color 0.3s linear;
 }
 
@@ -132,35 +132,35 @@ html{
   margin-right: 30px;
   height: 400px;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .ToDoList{
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: "Alice", sans-serif;
-  color: #bcfbf3;
-  opacity: 95%;
+  color: #d6fadf;
+  opacity: 98%;
 }
 
 .Timmer{
   margin-top: 20px;
   margin-bottom: 20px;
-  border-left: 4px solid #bcfbf3;
+  border-left: 4px solid #d6fadf;
 }
 .work-Text{
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: "Alice", sans-serif;
-  color: #bcfbf3;
-  opacity: 95%;
+  color: #d6fadf;
+  opacity: 98%;
 }
 .break-Text{
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: "Alice", sans-serif;
   color: pink;
-  opacity: 95%;
+  opacity: 98%;
 }
 
 .Item {
@@ -180,7 +180,6 @@ html{
   font-family: 'Alice';
   border: solid;
   box-shadow: none;
-  color: #C6FCE5;
   -webkit-transition:color 0.3s linear;
 }
 .add:hover{
